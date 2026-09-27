@@ -1,0 +1,86 @@
+      :root{
+              --color0:#000;
+              --color1:white;
+
+         --color2:#005cc5;/*jskeywordcolor */
+         --color3:#990055;/* jsnumbercolor */
+         --color4:#dc143c;/*codespancolor */
+         --color5:#D9EEE1; /*intoduction background */
+        --color6:#04AA6D;/*left border of examle */
+        --color7:#f1f1f1;/*span background*/
+        --color8:#ebedee;/*exampel background */
+      --color9:#ffffcc;/*note background*/
+      --color10:#2196f3;/*information background */
+      --color11:#282A35;#2b333b;#2c3135;#050a0f;#2b3339;
+      --color12:#f0f0f0;
+      --color13:gray;
+      --color14:#212426;
+      --color15: #490186;
+
+      --fontsize1:16px; }
+         *{box-sizing: border-box;padding:0;margin:0px}
+          .nav_contener{width:100vw;position:fixed;top:0px;left:0px;z-index:1000;border:0px solid blue;box-sizing: border-box;}
+          
+           .left_arraw{position: fixed;top:calc(var(--fontsize1)*3)+1px;left:0px;width: 30px;height:27px;background-color:var(--color11);z-index: 10014;display:flex;justify-content: center;align-items: center;cursor: pointer;color:var(--color1);font-size:calc(var(--fontsize1)*1.5)} 
+           .right_arraw{ position: fixed;top:calc(var(--fontsize1)*3)+1px;right:0px;width: 30px;height:27px;background-color:var(--color11);z-index: 10014;display:flex;justify-content: center;align-items: center;cursor: pointer;color:var(--color1);font-size:calc(var(--fontsize1)*1.5)}      
+      
+ .upper_nav{width:100vw;  
+                  display:flex;
+                  justify-content:flex-start;
+                  align-items:center;
+                  background-color:var(--color1);
+                  height:calc(var(--fontsize1)*3);
+
+                  
+
+              }
+              .upper_nav_a{text-decoration:none;}
+              .upper_nav_div{font-family: 'Source Sans Pro Topnav', sans-serif; font-size:calc(var(--fontsize1) + 2px) ;color:var(--color0) ;text-decoration:none;
+                padding:5px 15px 5px 15px;
+              }
+              
+
+    
+      
+
+
+      
+           .lower_nav{width:100vw; position:fixedc;top:0px;left:0px;z-index:1000;
+                  display:flex;
+                  justify-content:fspace-around;
+                  align-items:center;
+                  background-color:var(--color11);
+
+                 overflow:auto;
+                 overflow-x:scroll;
+                 padding-left:calc(var(--fontsize1)*3.2);
+                 scrollbar-width: none;
+::-webkit-scrollbar{display:none}
+                
+              }
+              
+              .lower_nav_a{text-decoration:none}
+              .lower_nav_div{text-transform:uppercase;  
+                  letter-spacing: 1px;
+          font-family: 'Source Sans Pro Topnav', sans-serif; padding:5px 15px 5px 15px  ;font-size:calc(var(--fontsize1) - 1px) ;
+          color:var(--color7) ; 
+
+
+                  }
+                  .lower_nav_div:hover{background-color:var(--color0);border-radius:5px}
+                  .three_bar{display:none; font-size:inherit;cursor:pointer;color:var(--color1);padding:5px 15px 5px 15px};
+
+      .three_bar:hover{background-color:var(--color0);border-radius:5px};
+      .ak{background:;width:100vw;justify-content: space-around;overflow:auto}
+      .left_arraw,.right_arraw{background:var(--color11);color:var(--color1);font-size:calc(var(--fontsize1)*1.5);display:flex;justify-content: center;align-items: center;position:fixed;top:calc(var(--fontsize1)*3)+1px;width:30px;height:27px;z-index:10014;cursor:pointer}
+        @media screen and (max-width: 600px) {
+          .three_bar{display:block;position:fixed;top:calc(var(--fontsize1)*3);left:0px;z-index:1001;padding:1.9px 15px 3.9px 15px;font-size:calc(var(--fontsize1)-1px);background-color: var(--color11);}
+          .lower_nav{overflow-x:scroll;scrollbar-color: var(--color11) ;font-size:calc(var(--fontsize1) - 1px) ; scrollbar-width:0px;}
+          .left_arraw,.right_arraw{display:none}
+          .subject{min-width:90vw !important;; 
+         background-color: var(--color1); 
+         
+        }
+            
+        }
+      

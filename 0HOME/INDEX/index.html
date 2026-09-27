@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title style="color: green">TΛTΛ ™</title>
+    <link rel="icon" href="/0HOME/IMAGE/h3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/0COMMAN/index.css" />
+    <link rel="stylesheet" href="/0HOME/INDEX/index.css">
+    <script src="/0COMMAN/index.js"defer></script>
+. <script src="/reactTypeHtml.js" defer></script>
+
+    <style> 
+      .last_bottom{background-color: var(--color15);width: 100%;height: 30vh;}
+   @media screen and (max-width: 600px) {
+     .web_logo_heading{ padding-left: 1vw;color:var(--color5)}
+        .subject_heading{background-color: var(--color1); font-size: calc(var(--fontsize1)*2.3);  
+        }
+        
+        .subject{color:var(--color10) !important;min-width:20vw;height:20vh;border:2px solid var(--color13);display: flex;justify-content: center;align-items: center;margin: 0px;border-radius: 05px;margin-top: 15px;background-color: var(--color1);border-radius:calc(var(--fontsize1));}
+        .all_subject_div{background-color:var(--color7);font-size:calc(var(--fontsize1)*1.5);}
+
+        /* .subject{min-width:80vw ! important;display:inline-block !important;
+         background-color: var(--color11);color:blue !important;
+         
+        } */
+        
+         
+
+
+      }
+    
+
+         
+      
+      
+    </style>
+  </head>
+  <body>
+    <nav class="nav_contener"> 
+ 
+    </nav>
+    <!--  class="nav_contener"|D -->
+     <!-- <div class="left_contener"></div> -->
+     <div class="right_contener"> 
+<h1 class="web_logo_heading">TΛTΛ ™</h1>
+<h4 class="subject_heading">Learn to Code</h4>
+<div class="all_subject_div"style="display:flex;flex-wrap:wrap;justify-content: space-around;height:auto;padding-right:0px">
+ 
+ </div>
+
+<!-- /.all_subject -->
+
+ <footer class="last_bottom">
+  
+ </footer><html_1 nstyle="background-color: green;color:blue;"> </html_1>
+     </div>
+    <!-- class="nav_contener|U -->
+    <script>
+        const right_contener=document.querySelector(".right_contener");
+      const all_subjects=[
+        {name:"html",link:"/0HOME/HTML/html.html"},
+        {name:"css",link:"/0HOME/CSS/css.html"},
+        {name:"javascript",link:"/0HOME/JAVASCRIPT/javascript.html"},
+        {name:"python",link:"/0HOME/PYTHON/python.html"},
+        {name:"React.js",link:"/0HOME/JAVA/java.html"},
+        {name:"Node.js",link:"/0HOME/C++/c++.html"},
+        {name:"Express.js",link:"/0HOME/C#/c#.html"},
+        {name:"Mongodb",link:"/0HOME/PHP/php.html"},
+        {name:"JAVA",link:"/0HOME/RUBY/ruby.html"},
+        {name:"C++",link:"/0HOME/GO/go.html"},
+        {name:"PHP",link:"/0HOME/GO/go.html"},
+        {name:"ruby",link:"/0HOME/GO/go.html"},
+        {name:"kotlin",link:"/0HOME/GO/go.html"},
+        {name:"go",link:"/0HOME/GO/go.html"},
+        {name:"Rust",link:"/0HOME/GO/go.html"},
+      ];
+      const all_subject_div=document.querySelector(".all_subject_div");
+    //   all_subjects.forEach((subject)=>{
+    //     all_subject_div.innerHTML+=`<div class="subject" style="">${subject.name}</div>`
+        
+        
+     
+    //  });
+//      all_subjects.forEach((subject) => {
+//   all_subject_div.insertAdjacentHTML(
+//     "beforeend",
+//     `<div class="subject">${subject.name}</div>`
+//   );
+// });
+all_subjects.forEach((subj,i) => {const a=document.createElement("div");
+  all_subject_div.appendChild(a);
+  a.classList.add("subject")
+  const subject=document.querySelectorAll(".subject");
+  subject[i].innerText=`${subj.name}`
+})
+    
+      
+    </script>
+     
+  </body>
+</html>

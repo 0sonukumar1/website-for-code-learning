@@ -1,0 +1,22 @@
+    .right_contener{
+        position:relative;left:0px;top:calc(var(--fontsize1)*4.7);color:red;border:0px solid black;width: 98.9vw;
+        padding-left: 0vw;
+        padding-top: 10px;
+            font-family: "Segoe UI", Arial, sans-serif;
+            min-height: 100vh;
+       box-sizing:border-box;padding:0px;margin:0px;
+      }
+      .web_logo_heading{ padding-left: 1vw;color:var(--color5);background-color: var(--color14);}
+     .subject_heading{
+        font-size: calc(var(--fontsize1)*3.5);
+        font-weight: bold;
+        color: var(--color1);
+        text-shadow: 0px 0px 5px var(--color11);padding-left: 5vw;background-color: var(--color14);
+      }
+      .all_subject_div{border:0px solid blue;background-color: var(--color14);}
+
+       .subject{min-width:20vw;height:20vh;border:1px solid black;display: flex;justify-content: center;align-items: center;margin: 0px;border-radius: 05px;margin-top: 15px;color:palegoldenrod ;color:purple;cursor: pointer;font-size:calc(var(--fontsize1)*2);text-transform: capitalize;};
+
+
+
+       
